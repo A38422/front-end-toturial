@@ -121,5 +121,5 @@ Nó có ba loại mã: HyperText Markup Language (HTML); Cascading Style Sheets 
 ## Cách dùng
 
 ```sh
-tagnamenội dung/tagname
+<tagname>nội dung</tagname>
 ```
