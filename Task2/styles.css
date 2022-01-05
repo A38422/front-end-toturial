@@ -1,0 +1,250 @@
+div[id=top] p {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    font-size: 20px;
+    color: crimson;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+}
+
+.wrapper p {
+    width: auto;
+    height: auto;
+    font-size: 18px;
+    word-spacing: 1px;
+    margin: 20px;
+    padding: 5px;
+    display: block;
+}
+
+a {
+    color: hotpink;
+    line-height: 1.5px;
+}
+
+#top {
+    background-image: linear-gradient(violet, yellow) !important;
+    background: greenyellow;
+    box-shadow: 5px 7px #d5e404;
+    position: fixed;
+    top: 0;
+    margin-top: 10px;
+    width: 100%;
+    z-index: 1;
+}
+
+img {
+    float: none;
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+    outline: 5px auto green;
+    border: 1px solid violet;
+    list-style: square;
+}
+
+#sidebar img {
+    margin-top: 30px;
+    transform: rotate(20deg);
+    border: none;
+    outline: none;
+    position: relative;
+    animation: move 5s infinite;
+}
+
+
+@keyframes move {
+    from {left: 0px;}
+    to {left: 200px;}
+}
+
+#bottom {
+    text-align: center;
+    font-style: oblique; 
+    opacity: 0.5;
+}
+
+.keyword span {
+    text-decoration: line-through;
+}
+
+ul {
+    width: auto;
+    height: auto;
+    font-size: 18px;
+    word-spacing: 1px;
+    margin: 20px;
+    padding: 5px;
+}
+
+ul li {
+    margin-left: 50px;
+    line-height: -1px;
+    margin-top: 5px;
+    list-style: square;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.other {
+    visibility: collapse;
+}
+
+.ball {
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    animation: bounce 1s infinite alternate;
+    -webkit-animation: bounce 1s infinite alternate;
+}
+@keyframes bounce {
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(-15px);
+    }
+}
+@-webkit-keyframes bounce {
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(-15px);
+    }
+}
+  
+.fade-out {
+    margin-left: auto; 
+    margin-right: auto;
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    position: relative;
+    animation: fadeOut ease 8s;
+    -webkit-animation: fadeOut ease 8s;
+    -moz-animation: fadeOut ease 8s;
+    -o-animation: fadeOut ease 8s;
+    -ms-animation: fadeOut ease 8s;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity:1;
+    }
+    100% {
+    opacity:0;
+    }
+}
+
+@-moz-keyframes fadeOut {
+    0% {
+        opacity:1;
+    }
+    100% {
+        opacity:0;
+    }
+}
+
+@-webkit-keyframes fadeOut {
+    0% {
+        opacity:1;
+    }
+    100% {
+        opacity:0;
+    }
+}
+
+@-o-keyframes fadeOut {
+    0% {
+        opacity:1;
+    }
+    100% {
+        opacity:0;
+    }
+}
+
+@-ms-keyframes fadeOut {
+    0% {
+        opacity:1;
+    }
+    100% {
+        opacity:0;
+    }
+}
+
+.box h1 {
+    margin: 0;
+}
+ 
+.box {
+    margin-left: auto; 
+    margin-right: auto;
+    height: 200px;
+    width: 300px;
+    overflow: hidden;
+    border: 1px solid red;
+    background: burlywood;
+}
+
+.hid-box {
+    top: 100%;
+    position: relative;
+    transition: all .3s ease-out;
+    background: aqua;
+    height: 100%;
+}
+  
+.box:hover > .hid-box{
+    top: 0;
+}
+
+.slide-left {
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+}
+
+.zoom-in-zoom-out {
+    margin-left: auto; 
+    margin-right: auto;
+    width: 100px;
+    height: 100px;
+    background: green;
+    animation: zoom-in-zoom-out 2s ease-out infinite;
+}
+  
+@keyframes zoom-in-zoom-out {
+    0% {
+      transform: scale(1, 1);
+    }
+    50% {
+      transform: scale(1.5, 1.5);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+}
