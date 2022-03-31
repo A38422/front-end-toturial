@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <title>Boardash</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta name="robots" content="all"/>
+        <link rel="stylesheet" href="styles.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="logo"> 
+                <span id="boardash">Boardash</span>
+            </div>
+            <div class="search">
+                <form class="example" action="/action_page.php">
+                    <input type="text" placeholder="Search message, people, ticket" name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+            
+            <div class="alert">
+                <i class="fa fa-bell-o"></i>
+                <span>Set Alert</span>
+            </div>
+            <div class="account">
+                <img src="avatar.jpg" id="avatar">
+                <span>Essie Howell</span>
+             <i class="material-icons" style="font-size: 35px; position: absolute; left: 0; top: 0; color: #eeeeee; margin-top: -7px; margin-left: 180px;">add_circle_outline</i>
+            </div>
+        </header>
+        <div class="main">
+            <div class="left">
+                <div class="admin">
+                    <i class="fa fa-bookmark" style="font-size: 23px"></i>
+                    <img src="avatar.jpg" id="ad">
+                    <span style="color: #000000; font-weight: 500;">Welcoma Essie</span>
+                    <p style="font-size: 12px; margin-left: 85px; color: #d7d7d7; margin-top: 5px;">Super Admin</p>
+                </div>
+                <div>
+                    <div>
+                        <div class="item">
+                            <i class="material-icons" id="item-icon">dashboard</i>
+                            <span>Overview</span>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="item">
+                            <i class="fa fa-bookmark" style="color: #aaaaaa; margin-left: 0; margin-right: 25px; margin-top: 18px;"></i>
+                            <span>Reservation</span>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="item">
+                            <i class="material-icons" id="item-icon">credit_card</i>
+                            <span>Meeting</span>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="item">
+                            <i class="material-icons" id="item-icon">group</i>
+                            <span>Customers</span>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="item">
+                            <i class="fa fa-ticket" style="color: #aaaaaa; margin-left: 0; margin-right: 20px; margin-top: 18px;"></i>
+                            <span>Ticket</span>
+                        </div>
+                    </div>
+                    <div style="background-color: #F2FAFF; border-left: 2px solid #228FFF">
+                        <div class="item">
+                            <i class="material-icons" id="item-icon" style="color: #228fff;">question_answer</i>
+                            <span style="color: #228fff;">Message</span>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="item">
+                            <i class="material-icons" id="item-icon">person</i>
+                            <span>Profile</span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="item" style="padding-top: 200px;">
+                        <i class="fa fa-power-off" style="color: #aaaaaa; margin-left: 0; margin-right: 20px; margin-top: 18px;"></i>
+                        <span>Logout</span>
+                    </div>
+                </div>
+            </div>
+            <div class="right" style="display: inline-block;">
+                <div class="messages">
+                    <div class="tmessages" style="font-size: 30px; width: 700px; display: inline-block;">
+                        Messages
+                    </div>
+                    <div style="display: inline-block;">
+                        <div class="back" style="display: inline-block;">
+                            <i class="fa fa-angle-left" style="font-size: 25px; color: #aaaaaa; margin-left: 0; margin-right: 20px; margin-top: 18px;"></i>
+                            <span style="color: #83868F; font-size: 18px; margin-right: 20px;">1-50 pages</span>
+                        </div>
+                        <div class="next" style="display: inline-block;">
+                            <i class="fa fa-angle-right" style="font-size: 25px; color: #aaaaaa; margin-left: 0; margin-right: 35px; margin-top: 18px;"></i>
+                        </div>
+                    </div>
+                    <div class="all" style="display: inline-block;">
+                        <button style="width: 80px; height: 45px; background-color: #228FFF; border: none; color: white; border-radius: 3px; margin-right: 20px;">All</button>
+                    </div>
+                    <div class="unread" style="display: inline-block;">
+                        <button style="width: 115px; height: 45px; background-color: white; border-width: 1.5px; border-style: solid; border-bottom-left-radius: 3px; border-top-left-radius: 3px; margin-right: 0px; border-color: #B6B6B6; float: left;">Unread</button>
+                        <button style="width: 115px; height: 45px; background-color: white; border-width: 1.5px; border-style: solid; border-bottom-right-radius: 3px; border-top-right-radius: 3px; margin-left: 0px; border-color: #B6B6B6;">Important</button>
+                    </div>
+                </div>
+                <div class="join-now" style="width: 100%; background-image: linear-gradient(to right, #eb628e, #FFA32E); height: 120px; margin-top: 30px;">
+                    <div style="float: left;">
+                        <img src="avatar.jpg" alt="avatar" width="70px" height="70px" style="border-radius: 50%;margin-top: 20px; margin-left: 30px;  border: #F99CB5 5px solid; margin-right: 20px;">
+                    </div>
+                    <div style="color: white; padding-top: 30px; float: left;">
+                        <p style="font-size: 18px; font-weight: 600;">Sale Presentation - Live Group Call</p>
+                        <p style="font-size: 15px; margin-top: 10px;">adams_ka@gmail.com</p>
+                        <p style="font-size: 13px; margin-top: 10px; color: #f5a8a8;">Started 3 min ago</p>
+                    </div>
+                    <div style="display: inline-block; border: rgb(248, 184, 147) 1px solid; border-radius: 5px; padding: 12px 40px 12px 40px; margin-bottom: 100px; color: white; font-size: 13px; margin-left: 330px; margin-top: 35px;">
+                        You're invited
+                    </div>
+                    <div style="display: inline-block;">
+                        <button style="border: none; border-radius: 3px; width: 160px; height: 40px; margin-left: 140px; font-size: 15px; background-color: #FFFFFF;"><i class="fa fa-video-camera" style="margin-right: 15px;"></i>Join Now</button>
+                    </div>
+                </div>
+                <div class="overall" style="border-radius: 5px; border: #aec7e0 1px solid; width: 100%; height: 130px; margin-top: 25px; background-color: white;">
+                    <div class="overall-messages" style="width: 450px; display: inline-block;">
+                        <div style="border-radius: 50%; border: #a3c9ee 1px solid; width: 90px; height: 90px; margin-left: 25px; margin-top: 20px; background-color: #F2FAFF; float: left;">
+                            <i class="material-icons" id="item-icon" style="color: #228fff; font-size: 30px; padding-left: 35px; padding-top: 10px;">question_answer</i>
+                        </div>
+                        <div style="display: inline-block;">
+                            <p style="margin-top: 30px; margin-left: 25px;">Overall Messages</p>
+                            <p style="margin-top:10px; margin-left: 25px; font-size: 30px; font-weight: 600; float: left;">2389</p>
+                            <span style="display: inline-block; padding-left: 10px; padding-top: 20px; color: #d7d7d7;">This month</span>
+                        </div>
+                    </div>
+                    <div class="sent-messages" style="width: 450px; display: inline-block;">
+                        <div style="border-radius: 50%; border: #a3c9ee 1px solid; width: 90px; height: 90px; margin-left: 25px; margin-top: 20px; background-color: #F2FAFF; float: left;">
+                            <i class="material-icons" id="item-icon" style="color: #228fff; font-size: 30px; padding-left: 35px; padding-top: 10px;">question_answer</i>
+                        </div>
+                        <div style="display: inline-block;">
+                            <p style="margin-top: 30px; margin-left: 25px;">Sent Messages</p>
+                            <p style="margin-top:10px; margin-left: 25px; font-size: 30px; font-weight: 600; float: left;">1494</p>
+                            <span style="display: inline-block; padding-left: 10px; padding-top: 20px; color: #d7d7d7;">This month</span>
+                        </div>
+                    </div>
+                    <div class="received-messages" style="display: inline-block;">
+                        <div style="border-radius: 50%; border: #a3c9ee 1px solid; width: 90px; height: 90px; margin-left: 25px; margin-top: 20px; background-color: #F2FAFF; float: left;">
+                            <i class="material-icons" id="item-icon" style="color: #228fff; font-size: 30px; padding-left: 35px; padding-top: 10px;">question_answer</i>
+                        </div>
+                        <div style="display: inline-block;">
+                            <p style="margin-top: 30px; margin-left: 25px;">Received Messages</p>
+                            <p style="margin-top:10px; margin-left: 25px; font-size: 30px; font-weight: 600; float: left;">895</p>
+                            <span style="display: inline-block; padding-left: 10px; padding-top: 20px; color: #d7d7d7;">This month</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="user" style="width: 100%; height: 430px; background-color: white; margin-top: 25px;">
+                    <div>
+                        <div class="email" style="border-bottom: rgb(226, 223, 223) 1px solid; height: 100px;"> 
+                            <input type="checkbox" id="vehicle1" name="vehicle1" value="Joseph" style="display: inline-block; margin-left: 20px;">
+                            <img src="avatar.jpg" alt="avatar" width="45px" height="45px" style="display: inline-block; width: 45px; height: 45px; border-radius: 50%; margin-top: 25px; margin-left: 35px;">
+                            <label for="vehicle1" style="display: inline-block; margin-left: 30px; font-weight: 600;">Joseph Kennedy</label>
+                            <div style="margin-left: 50px; display: inline-block; border: none; border-radius: 5px; background-color: #f6f6f6; width: 110px; height: 25px; padding-left: 20px; padding-top: 10px;">User Testing</div>
+                            <p style="display: inline-block; margin-left: 10px;">Hi Jame, We need to do user testing by monday, Please add me in slack group...</p>
+                            <i class="material-icons" style="font-size: 40px; color:#D9D9D9; display: inline-block; margin-left: 130px;">more_vert</i>
+                        </div>
+                        <div class="email" style="border-bottom: rgb(226, 223, 223) 1px solid; height: 100px;"> 
+                            <input type="checkbox" id="vehicle1" name="vehicle1" value="Jeanette" style="display: inline-block; margin-left: 20px;">
+                            <img src="avatar.jpg" alt="avatar" width="45px" height="45px" style="display: inline-block; width: 45px; height: 45px; border-radius: 50%; margin-top: 25px; margin-left: 35px;">
+                            <label for="vehicle1" style="display: inline-block; margin-left: 30px; font-weight: 600;">Jeanette Schneider</label>
+                            <div style="margin-left: 50px; display: inline-block; border: none; border-radius: 5px; background-color: #f6f6f6; width: 70px; height: 25px; padding-left: 20px; padding-top: 10px;">Design</div>
+                            <p style="display: inline-block; margin-left: 10px;">Every week, we bring you the stories of people across the globe-Shopify merc...</p>
+                            <i class="material-icons" style="font-size: 40px; color:#D9D9D9; display: inline-block; margin-left: 159px;">more_vert</i>
+                        </div>
+                        <div class="email" style="border-bottom: rgb(226, 223, 223) 1px solid; height: 100px;"> 
+                            <input type="checkbox" id="vehicle1" name="vehicle1" value="Brandon" style="display: inline-block; margin-left: 20px;">
+                            <img src="avatar.jpg" alt="avatar" width="45px" height="45px" style="display: inline-block; width: 45px; height: 45px; border-radius: 50%; margin-top: 25px; margin-left: 35px;">
+                            <label for="vehicle1" style="display: inline-block; margin-left: 30px; font-weight: 600;">Brandon Mack</label>
+                            <div style="margin-left: 50px; display: inline-block; border: none; border-radius: 5px; background-color: #f6f6f6; width: 110px; height: 25px; padding-left: 20px; padding-top: 10px;">Development</div>
+                            <p style="display: inline-block; margin-left: 10px;">Kaspars Upmanis is now following you. You are a new follower on Dribble...</p>
+                            <i class="material-icons" style="font-size: 40px; color:#D9D9D9; display: inline-block; margin-left: 186px;">more_vert</i>
+                        </div>
+                        <div class="email" style="border-bottom: rgb(226, 223, 223) 1px solid; height: 100px;"> 
+                            <input type="checkbox" id="vehicle1" name="vehicle1" value="Frank Malone" style="display: inline-block; margin-left: 20px;">
+                            <img src="avatar.jpg" alt="avatar" width="45px" height="45px" style="display: inline-block; width: 45px; height: 45px; border-radius: 50%; margin-top: 25px; margin-left: 35px;">
+                            <label for="vehicle1" style="display: inline-block; margin-left: 30px; font-weight: 600;">Frank Malone</label>
+                            <div style="margin-left: 50px; display: inline-block; border: none; border-radius: 5px; background-color: #f6f6f6; width: 140px; height: 25px; padding-left: 20px; padding-top: 10px;">Meeting with jack</div>
+                            <p style="display: inline-block; margin-left: 10px;">Hi Jame, We need to do user testing by monday, Please add me in slack group...</p>
+                            <i class="material-icons" style="font-size: 40px; color:#D9D9D9; display: inline-block; margin-left: 125px;">more_vert</i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="display: inline-block; margin-top: 750px; margin-left: 1670px;">
+                <button style="width: 70px; height: 70px; border-radius: 50%; border: none; background-color: #FE5273;">
+                    <i class="material-icons" style="font-size:25px; color:white">add</i>
+                </button>
+            </div>
+        </div>
+    </body>
+</html>
+

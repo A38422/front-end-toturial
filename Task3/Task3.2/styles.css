@@ -1,0 +1,207 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background: white;
+    position: absolute;
+    top: 0;
+    box-shadow: 5px 3px 8px #efefef;
+}
+
+.logo {
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 27px;
+    margin-left: 6%;
+    letter-spacing: 3px;
+    font-weight: 550;
+}
+
+body {
+    background: #fafafa;
+}
+
+form {
+    position: absolute;
+    width: 78.5%;
+    top: 0;
+    left: 21.5%;
+    margin-top: 5px;
+}
+
+form.example input[type=text] {
+    margin-top: 13px;
+    padding: 10px;
+    padding-left: 20px;
+    word-spacing: 1px;
+    letter-spacing: 0.6px;
+    font-weight: 500;
+    font-size: 15px;
+    border: none;
+    float: left;
+    width: 54%;
+    height: 25px;
+    background: #f6f6f6;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    
+}
+  
+form.example button {
+    margin-top: 13px;
+    float: left;
+    width: 7%;
+    height: 45px;
+    padding: 12px;
+    background: #e4e4e4;
+    font-size: 17px;
+    border: none;
+    border-left: none;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    cursor: pointer;
+}
+  
+form.example button:hover {
+    background: #0b7dda;
+}
+  
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.fa {
+    color: #807d7d;
+}
+
+::placeholder { 
+    color: #b8b9be;
+    opacity: 1;
+    font-size: 17px;
+    
+}
+
+.alert {
+    float: right;
+    position: absolute;
+    top: 0;
+    margin-left: 74.1%;
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+.alert span {
+    padding-left: 4px;;
+    color: #6b6f7c;
+    font-size: 17px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+#avatar {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-top: -15px;
+    float: left;
+}
+
+.account {
+    position: absolute;
+    top: 0;
+    left: 83.1%;
+    margin-top: 30px;
+}
+
+.account span {
+    margin-left: 22px;
+    color: #6b6f7c;
+    font-size: 17px;
+    word-spacing: 1px;
+    font-weight: 500;
+}
+
+.main {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 80px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.left {
+    background: #ffffff;
+    position: absolute;
+    width: 300px;
+    height: 839px;
+    top: 0;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.right {
+    position: absolute;
+    width: 1250px;
+    height: 839px;
+    top: 0;
+    margin-top: 50px;
+    margin-left: 385px;
+}
+
+.fa-bookmark {
+    margin-left: 82%;
+    color: #7eb472;
+}
+
+#ad {
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20%;
+    margin-left: 30px;
+    float: left;
+}
+
+.admin span {
+    margin-left: 15px;
+    font-size: 16px;
+}
+
+.admin {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #dadbdf;
+}
+
+.item {
+    margin-left: 60px;
+    line-height: 3.5;
+}
+
+#item-icon {
+    color: #aaaaaa; 
+    margin-left: -4px; 
+    margin-right: 20px; 
+    font-size: 20px; 
+    margin-top: 22px;
+}
+
+.messages {
+    margin-left: 10px;
+    margin-top: 20px;
+}
+  
+.email:hover {
+    -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.5); 
+    transform: scale(103%); 
+}
