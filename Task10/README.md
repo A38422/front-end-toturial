@@ -10,13 +10,10 @@ iView UI là một thư viện trong Vue cung cấp các component và widget UI
 
 LESS là một trong các CSS preprocessor, hỗ trợ bạn viết mã CSS thể hiện định dạng giao diện website theo hướng:
 
-– Đơn giản hơn.
-
-– Ngắn gọn hơn.
-
-– Hiệu quả hơn.
-
-– Dễ quản lý hơn qua việc sử dụng các thành phần hỗ trợ từ LESS như biến, mixins, toán tử và hàm.
+- Đơn giản hơn.
+- Ngắn gọn hơn.
+- Hiệu quả hơn.
+- Dễ quản lý hơn qua việc sử dụng các thành phần hỗ trợ từ LESS như biến, mixins, toán tử và hàm.
 
 ## Component
 
