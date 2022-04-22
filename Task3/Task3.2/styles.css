@@ -204,4 +204,5 @@ form.example::after {
     -ms-transform: scale(1.5); 
     -webkit-transform: scale(1.5); 
     transform: scale(103%); 
+    background: white;
 }
